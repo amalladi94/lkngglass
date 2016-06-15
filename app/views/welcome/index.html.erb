@@ -9,14 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Looking Glass</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="stylesheets/agency.css" rel="stylesheet">
-
+  <script src="javascripts/cbpAnimatedHeader.js"></script>
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -46,7 +46,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Looking Glass</a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <!-- <img class="banner-logo-small" src="/images/Lkngglass_Logofull.png" alt="logosmall"/> --> <span class="light"> Looking Glass </span>
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -213,7 +215,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="imag/portfolio/dreams.png" class="img-responsive" alt="">
+                        <img src="images/portfolio/dreams.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Dreams</h4>
@@ -659,5 +661,18 @@
     <script src="javascripts/agency.js"></script>
 
 </body>
+
+<!--
+ Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<%= javascript_include_tag 'classie.js' %>
+<%= javascript_include_tag 'cbpAnimatedHeader.js' %>
+
+<!--Contact Form JavaScript -->
+<%= javascript_include_tag 'jqBootstrapValidation.js' %>
+<%= javascript_include_tag 'contact_me.js' %>
+
+ <!-- Custom Theme JavaScript -->
+<%= javascript_include_tag 'agency.js' %>
 
 </html>

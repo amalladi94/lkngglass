@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require ../../../app/assets/javascripts/agency.js
+//= require ../../../app/assets/javascripts/bootstrap.js
+//= require ../../../app/assets/javascripts/cbpAnimatedHeader.js
+//= require ../../../app/assets/javascripts/contact_me.js
+//= require ../../../app/assets/javascripts/jqBootstrapValidation.js
+//= require ../../../app/assets/javascripts/users.coffee
+//= require ../../../app/assets/javascripts/welcome.coffee
