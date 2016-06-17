@@ -146,14 +146,14 @@ fieldset[disabled] .btn-xl.active {
     border-color: transparent
 }
 .navbar-default .navbar-brand {
-    color: #fed136;
+    color: #330080;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503
+    color: #2ad4ff
 }
 .navbar-default .navbar-collapse {
     border-color: rgba(255, 255, 255, .02)
@@ -178,18 +178,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    color: #fed136;
+    color: #2ad4ff;
     outline: 0
 }
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136
+    background-color: #330080
 }
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503
+    background-color: #2ad4ff
 }
 @media (min-width: 768px) {
     .navbar-default {
@@ -369,8 +369,8 @@ section h3.section-subheading {
     bottom: 0;
     position: absolute;
     content: "";
-    width: 2px;
-    background-color: #f1f1f1;
+    width: 2px; /* line thickness*/
+    background-color: #330080; /* line behind timeline */
     left: 40px;
     margin-left: -1.5px
 }
@@ -413,7 +413,7 @@ section h3.section-subheading {
     height: 80px;
     position: absolute;
     z-index: 100;
-    background-color: #fed136;
+    background-color: #2ad4ff;
     color: #fff;
     border-radius: 100%;
     border: 7px solid #f1f1f1;
