@@ -159,8 +159,8 @@ fieldset[disabled] .btn-xl.active {
     border-color: rgba(255, 255, 255, .02)
 }
 .navbar-default .navbar-toggle {
-    background-color: #fed136;
-    border-color: #fed136
+    background-color: #330080;
+    border-color: #330080
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff
@@ -174,11 +174,11 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff
+    color: #2ad4ff
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    color: #2ad4ff;
+    color: #330080;
     outline: 0
 }
 .navbar-default .navbar-nav>.active>a {
@@ -561,14 +561,28 @@ section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px
 }
+section#services .form-group input,
+section#services .form-group textarea {
+    padding: 10px
+}
 section#contact .form-group input.form-control {
     height: auto
 }
+section#services .form-group input.form-control {
+    height: auto;
+    width: 100%;
+
+}
 section#contact .form-group textarea.form-control {
-    height: 236px
+    height: 236px;
+
 }
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #330080;
+    box-shadow: none
+}
+section#services .form-control:focus {
+    border-color: #330080;
     box-shadow: none
 }
 section#contact::-webkit-input-placeholder {
@@ -635,7 +649,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136
+    background-color: #330080
 }
 .btn:focus,
 .btn:active,
