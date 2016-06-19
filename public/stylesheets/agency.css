@@ -5,6 +5,9 @@ body {
 .text-muted {
     color: #777
 }
+.text-white {
+    color: #fff
+}
 .text-primary {
     color: #330080
 }
@@ -49,6 +52,9 @@ h6 {
 }
 .bg-darkest-gray {
     background-color: #222
+}
+.bg-medium-gray {
+    background-color: #333;
 }
 .btn-primary {
     color: #fff;
@@ -141,9 +147,69 @@ fieldset[disabled] .btn-xl.active {
     color: #fed136;
     background-color: #fff
 }
+
+
+
+
+
+.btn-x2 {
+    color: #fff;
+    background-color: #fff;
+    border-color: #330080;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px
+}
+.btn-x2:hover,
+.btn-x2:focus,
+.btn-x2:active,
+.btn-x2.active,
+.open .dropdown-toggle.btn-x2 {
+    color: #fff;
+    background-color: #2ad4ff;
+    border-color: #2ad4ff
+}
+.btn-x2:active,
+.btn-x2.active,
+.open .dropdown-toggle.btn-x2 {
+    background-image: none
+}
+.btn-x2.disabled,
+.btn-x2[disabled],
+fieldset[disabled] .btn-x2,
+.btn-x2.disabled:hover,
+.btn-x2[disabled]:hover,
+fieldset[disabled] .btn-x2:hover,
+.btn-x2.disabled:focus,
+.btn-x2[disabled]:focus,
+fieldset[disabled] .btn-x2:focus,
+.btn-x2.disabled:active,
+.btn-x2[disabled]:active,
+fieldset[disabled] .btn-x2:active,
+.btn-x2.disabled.active,
+.btn-x2[disabled].active,
+fieldset[disabled] .btn-x2.active {
+    background-color: #fed136;
+    border-color: #fed136
+}
+.btn-x2 .badge {
+    color: #fed136;
+    background-color: #fff
+}
+
+
 .navbar-default {
     background-color: #222;
     border-color: transparent
+}
+
+    .navbar-default.top-nav-collapse {
+        padding: 0;
+        
+        background: rgba(34,34,34,.8);
 }
 .navbar-default .navbar-brand {
     color: #330080;
@@ -174,7 +240,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #2ad4ff
+    color: #FFF
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -287,7 +353,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section {
-        padding: 150px 0
+        padding: 60px 0
     }
 }
 .service-heading {
@@ -724,11 +790,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136
+    background: #2ad4ff
 }
 ::selection {
     text-shadow: none;
-    background: #fed136
+    background: #2ad4ff
 }
 img::selection {
     background: 0 0
@@ -737,5 +803,5 @@ img::-moz-selection {
     background: 0 0
 }
 body {
-    webkit-tap-highlight-color: #fed136
+    webkit-tap-highlight-color: #2ad4ff
 }
