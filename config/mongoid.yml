@@ -133,3 +133,12 @@ test:
         read:
           mode: primary
         max_pool_size: 1
+
+
+
+production:
+    clients:
+    
+      default:
+        uri: mongodb://heroku_fh20w49n:42p9un4lpks8d82k521frpitnn@ds023452.mlab.com:23452/heroku_fh20w49n
+        options:
