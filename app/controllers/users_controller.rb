@@ -28,10 +28,13 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        ListMailer.welcome_email(@user).deliver_now
+        #ListMailer.welcome_email(@user).deliver_now
         format.html { redirect_to @user, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
-
+        #if @user.name = nil 
+         # format.html { redirect_to @user, notice: 'User was successfully created.' }
+          #format.json { render :show, status: :created, location: @user }
+        #end
       else
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
