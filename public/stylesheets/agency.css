@@ -1,9 +1,13 @@
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .text-muted {
     color: #777
+}
+.text-muted2 {
+    color: #fff
 }
 .text-white {
     color: #fff
@@ -343,6 +347,11 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px
 }
+section h2.section-heading2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 5px
+}
 section h3.section-subheading {
     font-size: 16px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -350,6 +359,14 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
     margin-bottom: 75px
+}
+section h3.section-subheading2 {
+    font-size: 16px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 15px
 }
 @media (min-width: 768px) {
     section {

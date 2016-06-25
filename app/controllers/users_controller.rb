@@ -30,7 +30,7 @@ class UsersController < ApplicationController
       if @user.save
         #ListMailer.welcome_email(@user).deliver_now
         format.html { redirect_to @user, notice: 'User was successfully created.' }
-        format.json { render :show, status: :created, location: @user }
+        format.json { render :thanks, status: :created, location: @user }
         #if @user.name = nil 
          # format.html { redirect_to @user, notice: 'User was successfully created.' }
           #format.json { render :show, status: :created, location: @user }
