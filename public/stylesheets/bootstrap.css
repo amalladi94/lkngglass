@@ -128,9 +128,29 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
+  
+   color: #fff;
+    background-color: #330080;
+    border-color: #330080;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 20px 40px;
+ }
+
+ input[type="submit"]:hover{
+   color: #fff;
+    background-color: #2ad4ff;
+    border-color: #2ad4ff;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 20px 40px;
+ }
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -2508,9 +2528,13 @@ legend {
 }
 label {
   display: inline-block;
+  font-size: 40px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
   max-width: 100%;
   margin-bottom: 5px;
-  font-weight: bold;
+  color: #333;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
