@@ -128,29 +128,9 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  
-   color: #fff;
-    background-color: #330080;
-    border-color: #330080;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-radius: 3px;
-    font-size: 18px;
-    padding: 20px 40px;
- }
-
- input[type="submit"]:hover{
-   color: #fff;
-    background-color: #2ad4ff;
-    border-color: #2ad4ff;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-radius: 3px;
-    font-size: 18px;
-    padding: 20px 40px;
- }
+  -webkit-appearance: button;
+  cursor: pointer;
+}
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -1357,6 +1337,9 @@ mark,
 .text-muted {
   color: #777;
 }
+.text-muted2 {
+  color: #fff;
+}
 .text-primary {
   color: #337ab7;
 }
@@ -1394,7 +1377,7 @@ a.text-danger:focus {
 }
 .bg-primary {
   color: #fff;
-  background-color: #888;
+  background-color: #fff;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
@@ -2528,13 +2511,9 @@ legend {
 }
 label {
   display: inline-block;
-  font-size: 40px;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
   max-width: 100%;
   margin-bottom: 5px;
-  color: #333;
+  font-weight: bold;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
