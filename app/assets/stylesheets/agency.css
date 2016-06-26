@@ -214,11 +214,11 @@ fieldset[disabled] .btn-x2:active,
 .btn-x2[disabled].active,
 fieldset[disabled] .btn-x2.active {
     background-color: #330080;
-    border-color: #330080
+    border-color: #330080;
 }
 .btn-x2 .badge {
     color: #330080;
-    background-color: #fff
+    background-color: #fff;
 }
 
 
@@ -254,7 +254,8 @@ fieldset[disabled] .btn-x2.active {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #330080
+    background-color: #330080;
+}
 .navbar-default .nav li a {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
